@@ -1,8 +1,7 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+@import "tailwindcss";
+@import "tw-animate-css";
+
+
 
 html,
 body,
