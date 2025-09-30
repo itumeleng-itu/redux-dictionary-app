@@ -33,7 +33,7 @@ export interface Definition { // One textual definition and an optional usage ex
   };
 
   export const fetchWordDefinition = createAsyncThunk( // Async action for fetching a word
-    'dictionary/fetchWord',
+    'dictionary/fetchWordDefinition',
     async (word: string, { rejectWithValue }) => {
       try {
         const response = await axios.get<WordEntry[]>(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`); // Call public API

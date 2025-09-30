@@ -13,7 +13,7 @@ export const DefinitionDisplay: React.FC = () => {
   }
 
   return (
-    <div className='bg-white p-10 m-5 rounded-3xl'>
+    <div className='bg-rgb(192, 197, 197)-900 p-10 m-5 rounded-3xl'>
       {entries.map((entry, index) => (
       <article key={index}>
         {/* Word Header */}
